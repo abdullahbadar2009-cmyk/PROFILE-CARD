@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            Background: #f1f5f9;
+            color: #111827;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'poppins';
+        }
+
+        .card {
+            background: #ffffff;
+            margin-top: 100px;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 12px 32px #1d58d848;
+            width: 300px;
+
+        }
+
+        .bio p {
+            font-size: 14px;
+            line-height: 1.4;
+            margin: 10px 0 15px;
+            text-align: center;
+        }
+
+
+        .logos {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+
+        img {
+            border-radius: 50%;
+            width: 150px;
+        }
+
+        .profile {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .social {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 5px;
+             gap: 12px;
+        }
+
+        .btt {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 10px;
+        }
+
+        .btn {
+            padding: 10px;
+            width: 30%;
+            border-radius: 15px;
+            border: none;
+            background: #1d4ed8;
+            color: white;
+            font-family: 'poppins';
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+
+        .btn:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 12px 32px #1d4ed8;
+        }
+
+        .btn:active {
+            transform: translateY(0px);
+        }
+
+        .profile img {
+            transition: transform .3s ease;
+        }
+
+        .profile img:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <div class="profile">
+            <h2>Profile card</h2>
+            <img class="business-avatar-profile-black-icon-man-of-user-symbol-in-trendy-flat-style-isolated-on-male-profile-people-diverse-face-for-social-network-or-web-vector"
+                src="https://static.vecteezy.com/system/resources/thumbnails/032/176/191/small/business-avatar-profile-black-icon-man-of-user-symbol-in-trendy-flat-style-isolated-on-male-profile-people-diverse-face-for-social-network-or-web-vector.jpg"
+                alt="profile">
+        </div>
+        <div class="bio">
+            <h3>Hey!Its Abdullah Badar</h3>
+            <p>I am a Web Dev|Entreprenuer in progress,and I love to code and work on startups.And i read people like
+                books</p>
+        </div>
+        <div class="social">
+            <img class="logos"
+                src="https://img.freepik.com/premium-vector/instagram-logo_976174-11.jpg?semt=ais_hybrid&w=740&q=80"
+                alt="logo">
+            <img class="logos"
+                src="https://img.freepik.com/premium-psd/facebook-logo-blue-circle_705838-12823.jpg?semt=ais_hybrid&w=740&q=80"
+                alt="logo">
+            <img class="logos" src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" alt="logo">
+        </div>
+        <div class="btt">
+            <button class="btn">Follow</button>
+        </div>
+    </div>
+</body>
+
+</html>
